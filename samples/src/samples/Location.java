@@ -11,4 +11,7 @@ public class Location {
 	public void setLocation(String location) {
 		Location = location;
 	}
+	
+	String a="Muar";
+	
 }
