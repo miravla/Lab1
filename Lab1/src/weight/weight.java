@@ -2,19 +2,21 @@ package weight;
 
 
 public class weight {
-
+	private double weightInMars;
+	private double weightInEarth;
 	public weight(double weight)
 	{
 		this.weightInEarth=weight;
 	}
-	private double weightInMars;
-	private double weightInEarth;
+
 	
 	public double getWeightInMars() {
 		return weightInMars;
 	}
+	
+	//calculate and get weight
 	public void setWeightInMars(double weightInMars) {
-		this.weightInMars = weightInMars;
+		this.weightInMars =weightInEarth*0.38;
 	}
 	public double getWeightInEarth() {
 		return weightInEarth;
@@ -25,7 +27,12 @@ public class weight {
 	
 	public void calculateWeight()
 	{
-		weightInMars=weightInEarth*0.38;
+		this.weightInMars=weightInEarth*0.38;
+		
+	}
+	public static void hit(weight weight) {
+		
+		
 	}
 	
 }
