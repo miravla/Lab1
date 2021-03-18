@@ -12,6 +12,6 @@ public class Location {
 		Location = location;
 	}
 	
-	String a="Muar";
+
 	
 }
