@@ -41,14 +41,6 @@ public class DemoCalculateWeight {
 		
 		
 		}
-
-
-
-
-	private static double calculateWeight(Double weight) {
-		// TODO Auto-generated method stub
-		
-	}
 	
 
 	}
