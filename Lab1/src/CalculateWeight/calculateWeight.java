@@ -21,9 +21,9 @@ public void weight() {};
 		for(int i=0; i<3;i++)
 		{
 			list[i].calculateWeight();
-			System.out.print("Weight "+i+" in Earth :");
+			System.out.print("Weight "+(i+1)+" in Earth :");
 			System.out.println(list[i].getWeightInEarth());
-			System.out.print("Weight "+i+" in Mars :");
+			System.out.print("Weight "+(i+1)+" in Mars :");
 			System.out.println(list[i].getWeightInMars());
 		}
 		
